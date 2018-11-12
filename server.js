@@ -35,7 +35,7 @@ app.put('/api/products/:id' , db.updateProduct);
 app.delete('/api/products/:id' , db.deleteProduct);
 
 //purchase_items
-app.get('/api/purchase_items/', db.getpurchase_items);
+app.get('/api/purchase_items', db.getpurchase_items);
 //get id
 app.get('/api/purchase_items/:id' , db.getpurchase_itemsByID);
 //insert
