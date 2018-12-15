@@ -24,7 +24,7 @@ app.get('/api/json',function(req,res){
 });
 // products
 //ดึง function มาจาก database.js เลย
-app.get('/api/order/', db.getAllorderID);
+app.get('/api/order', db.getAllorderID);
 
 
 var port = process.env.PORT || 8080;
