@@ -15,7 +15,6 @@ function getAllorderID(req, res) {
             console.log('ERROR:', error)
         })
 }
-
 //เข้าตาม id
 function getCount(req,res){
     db.any('SELECT COUNT(ship_country),ship_country FROM Orders  Group by ship_country;')
